@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.first{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    justify-content: space-between;
+    /* background-image: url("https://media.istockphoto.com/photos/bandra-worli-sea-link-bridge-mumbai-picture-id1320344786?b=1&k=20&m=1320344786&s=170667a&w=0&h=GxgfscsskjUp5CDa4F27MtCMBVQSD_3_j5JupJ8Ztm8="); */
+    background-image: url();
+}
+.angle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.left,.right{
+    font-size: 30px;
+    /* position: relative; */
+    /* top: 40%; */
+    padding: 20px;
+    opacity: 0.5;
+    background:rgba(0,0,0,0.1);
+
+}
+img{
+    width: 400px;
+    height: 400px;
+
+
+}
+.main_title{
+    position: absolute;
+    font-size: 40px;
+    /* opacity: 0.6; */
+    padding: 20px;
+    border-radius: 4px;
+    /* background-color: aqua; */
+    font-weight: 500;
+    background:rgba(0,0,0,0.1);
+    
+}
+.desc{
+    position: absolute;
+    /* padding: 20px;
+    padding-top: 4px; */
+    bottom: 0;
+    font-size: 40px;
+    background:rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 100%;
+
+}
